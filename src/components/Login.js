@@ -8,7 +8,7 @@ function Login({ setIsLoggedIn }) {
     password: "",
   });
 
-  function Change(e) {
+  function handleChange(e) {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
